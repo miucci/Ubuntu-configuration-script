@@ -40,7 +40,7 @@ packages=(
 
 for package in "$package[@]"; do
 	echo "installing ${package}"
-	sudo apt -y  install 
+	sudo apt -y install $package 
 done
 
 echo "All packages installed\n"
