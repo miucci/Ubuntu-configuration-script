@@ -38,9 +38,9 @@ packages=(
 	'tlp'
 )
 
-for package in "$package[@]"; do
+for package in "${package[@]}"; do
 	echo "installing ${package}"
-	sudo apt -y install $package 
+	sudo apt -y install "$package" 
 done
 
 echo "All packages installed\n"
