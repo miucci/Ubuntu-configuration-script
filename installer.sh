@@ -11,7 +11,6 @@ packages=(
 	#the i3 window manager and it's utilities
 	'i3'
 	'lxappearance'
-	'picom'
 	'lightdm'
 	'feh'
 
